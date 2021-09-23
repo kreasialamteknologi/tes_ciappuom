@@ -15,7 +15,9 @@
 <!-- BEGIN PAGE LEVEL PLUGINS -->
 <script src="<?php echo base_url(); ?>assets/plugins/datatables/datatables.min.js" type="text/javascript"></script>
 <script src="<?php echo base_url(); ?>assets/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
-<!-- <script src="<?php //echo base_url(); ?>assets/plugins/select2/select2.full.min.js"></script>-->
+<script src="<?php //echo base_url(); ?>assets/plugins/select2/select2.full.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/plugins/input-mask/jquery.inputmask.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>assets/plugins/input-mask/jquery.inputmask.numeric.extensions.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->
 
 <!-- BEGIN THEME LAYOUT SCRIPTS -->

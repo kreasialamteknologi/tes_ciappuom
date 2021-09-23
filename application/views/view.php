@@ -19,7 +19,7 @@
         <link href="<?php echo base_url(); ?>assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo base_url(); ?>assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo base_url(); ?>assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo base_url(); ?>assets/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url(); ?>assets/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />        
         <!-- END GLOBAL MANDATORY STYLES -->
 
         <!-- BEGIN THEME GLOBAL STYLES -->
@@ -32,6 +32,8 @@
         <link href="<?php echo base_url(); ?>assets/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo base_url(); ?>assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo base_url(); ?>assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url(); ?>assets/plugins/select2/select2.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url(); ?>assets/plugins/select2/select2-bootstrap.css" rel="stylesheet" type="text/css" />        
         <!-- END PAGE LEVEL PLUGINS -->
 
         <!-- BEGIN THEME LAYOUT STYLES -->
