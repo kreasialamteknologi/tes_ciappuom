@@ -1,0 +1,194 @@
+/* here you can put your own css to customize and override the theme */
+.page-header.navbar .page-logo .title-company {
+	color: #fff; 
+	font-size: 21px; 
+	padding: 16px 8px;
+}
+.page-header.navbar .page-logo .logo-default {
+	margin-top: -5px;
+}
+.portlet.light {
+	margin-top: 10px;
+}
+.portlet.light {
+    padding: 5px 10px 10px;
+}
+.portlet.light>.portlet-title {
+    min-height: 35px;
+}
+.portlet.light>.portlet-title>.caption {
+    padding: 6px 0;
+}
+.portlet.light>.portlet-title>.caption>.caption-subject {
+    font-size: 14px;
+}
+.page-content {
+    /*border-left: 1px solid #95B8E7;*/
+    border-bottom: 1px solid #95B8E7;
+}
+.page-header.navbar {
+    background-color: #8bc3ea;
+}
+.page-header.navbar .search-form {
+    background: #79b4de;
+}
+.page-header.navbar .search-form.open, .page-header.navbar .search-form:hover {
+    background: #79b4de;
+}
+.page-header.navbar .search-form .input-group .form-control {
+    color: #f3f2f2;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover,
+.page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle {
+    background-color: #79b4de;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle .badge.badge-default {
+    background-color: #4fa3de;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle>i {
+    color: #f3f2f2;
+}
+.page-content-wrapper {
+    border-bottom: none; /*1px solid #95B8E7;*/
+}
+.page-sidebar .page-sidebar-menu>li>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a {
+    border-top: 1px solid #95B8E7;
+}
+.page-sidebar .page-sidebar-menu>li.active.open>a,
+.page-sidebar .page-sidebar-menu>li.active>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a {
+    background: #8bc3ea;
+}
+.page-sidebar .page-sidebar-menu>li.active.open>a>.selected,
+.page-sidebar .page-sidebar-menu>li.active>a>.selected,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a>.selected,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>.selected {
+    /*border-left: 8px solid #8bc3ea;*/
+    border-left: none;
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    background: 0 0;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid #fff;
+}
+.page-sidebar .page-sidebar-menu>li.open>a,
+.page-sidebar .page-sidebar-menu>li:hover>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.open>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a {
+    background: #eef5fb;
+}
+.page-sidebar .page-sidebar-menu>li:last-child>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:last-child>a {
+	border-top: 1px solid transparent;
+    border-bottom:1px solid rgba(149,184,231,0.25) !important;
+}
+.page-sidebar .page-sidebar-menu>li>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a {
+	border-top: 1px solid transparent;
+    border-bottom: 1px solid #d1ddef !important;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a,
+.page-sidebar .page-sidebar-menu .sub-menu>li.open>a,
+.page-sidebar .page-sidebar-menu .sub-menu>li:hover>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.active>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.open>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li:hover>a {
+    background: #eef5fb !important;
+}
+.page-sidebar .page-sidebar-menu .sub-menu li>a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu li>a {
+    padding: 6px 15px 6px 33px;
+}
+.portlet-title .actions .btn {
+    margin: 15px 0px;
+}
+.alert {
+    display: none;
+}
+.box-footer {
+    min-height: 45px;
+    margin: 15px 0px;
+}
+.modal.fade.in {
+    top: 1%;
+}
+.center {
+    text-align: center;
+}
+.tabbable-custom>.tab-content {
+    border: 1px solid #95B8E7;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 1px solid #95B8E7;
+    border-bottom: 1px solid #fff;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 5px 10px;
+}
+table.dataTable thead > tr > th,
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc {
+    background-color: #efefef;
+    background: -webkit-linear-gradient(top,#F9F9F9 0,#efefef 100%);
+    background: -moz-linear-gradient(top,#F9F9F9 0,#efefef 100%);
+    background: -o-linear-gradient(top,#F9F9F9 0,#efefef 100%);
+    background: linear-gradient(to bottom,#F9F9F9 0,#efefef 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9F9F9,endColorstr=#efefef,GradientType=0);
+}
+table.dataTable tbody tr td:first-child  {
+    background-color: #efefef !important;
+    background: -webkit-linear-gradient(top,#F9F9F9 0,#efefef 100%) !important;
+    background: -moz-linear-gradient(top,#F9F9F9 0,#efefef 100%) !important;
+    background: -o-linear-gradient(top,#F9F9F9 0,#efefef 100%) !important;
+    background: linear-gradient(to bottom,#F9F9F9 0,#efefef 100%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9F9F9,endColorstr=#efefef,GradientType=0) !important;
+}
+table.dataTable thead th,
+table.dataTable tfoot th {
+    font-weight: normal;
+}
+.slimScrollDiv .slimScrollBar {
+    background: rgb(139, 195, 234) !important;
+}
+
+.right{
+    text-align: right !important;
+}
+
+table.table tbody tr.selected{
+  background-color: #9BFCC0;
+}
+
+.modal-full{
+    width: 99%;
+    height: 99%;            
+}
+
+.modal-75{
+    width: 74%;
+    height: 80%;            
+}
+
+@media screen and (max-width: 767px){
+    .portlet-title .actions {
+        margin: 15px auto;
+        text-align: center;
+    }
+    .portlet-title .actions .btn {
+        float: none!important;
+    }
+    .modal.fade.in {
+        top: 5%;
+    }
+}
